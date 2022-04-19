@@ -139,6 +139,8 @@ void display_menu()
 	std::string user_input = "";
 	int customer_number, r1, r2, r3, r4 = 0;
 
+	std::cout << "Paste commands below. You can copy and paste the list of commands into the console\n";
+
 	do
 	{
 		std::cin >> user_input;
